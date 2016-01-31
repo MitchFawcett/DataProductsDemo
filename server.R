@@ -28,13 +28,13 @@ d <- d[order(d$CodeBlueDayOfWeek), ]
 shinyServer(function(input, output, session) {
         topCaption <- reactive({
                 if (input$variable == "CodeBlueWeekOfYear") {
-                     "Code Blue By Week Of Year" 
+                     "Week Of Year" 
                 } else
                 if (input$variable == "CodeBlueCalendarQuarter") {
-                        "Code Blue By Calendar Quarter"   
+                        "Calendar Quarter"   
                 } else
                 if (input$variable == "CodeBlueCalendarYear") {
-                        "Code Blue By Calendar Year"   
+                        "Calendar Year"   
                 }
 
         })  

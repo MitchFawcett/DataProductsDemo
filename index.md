@@ -23,6 +23,8 @@ All of the tools have R, the statistical programming language, in their underpin
 
 This presentation demonstrates the use of Shiny and Slidify and how they can help us understand code blue occurances at a hospital. 
 
+All of the code for my Shiny app and Slidify slides is at https://github.com/MitchFawcett/DataProductsDemo/blob/master/index.md
+
 --- .class #id 
 
 ## What is Code Blue?
@@ -50,16 +52,14 @@ This is the structure of the code blue data set.
 
 ## About the Code Blue Shiny App 
 
-"Shiny" is a development tool that allows construction of sophisticated interactive web pages using R.  No knowledge of HTML, CSS or Javascript is necessary, although Shiny apps can be customized using those languages if desired. For more information about Shiny visit http://shiny.rstudio.com 
+"Shiny" is an open source development tool that allows construction of sophisticated interactive Web pages using R.  No knowledge of HTML, CSS or Javascript is necessary, although Shiny apps can be customized using those languages if desired. For more information about Shiny visit http://shiny.rstudio.com.
+
+Shiny developer tools are free and hosting of applications is free for 25 hours of use per month for up to 5 applications.  Various tiers of paid accounts are available to match specific needs.
 
 Going to the following Web page will display my Shiny application:
+
 https://myshinyacct.shinyapps.io/CodeBlue/
 
-On the left side there will be two user input controls: a drop down list and a slider. On the right is a bar plot showing the number of code blue occurances by day of week for the period of time the user selected.
-
-The drop down list lets you select week, quarter or year.  Selecting "week" will display the number of code blues by day of week for one week.  "Quarter"" will display the number by day of week for an entire quarter.  "Year" will display the number per day of week for an entire year.
-
-Drag the slider to pick a particular week, quarter or year to display. Click the "play" button under the slider to animate it with an update happening every two seconds.
 
 --- &radio
 
